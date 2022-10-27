@@ -1,1 +1,1 @@
-# Portfolio
+An assignment for the Internet and Web Programming course, with a ton of illustrated elements done by me and cool colours displaying a brief of me, the hobbies I do from illustration to specialty coffee.
