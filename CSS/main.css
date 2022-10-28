@@ -126,6 +126,10 @@ a{
     border-radius: 4vw;
 }
 
+.other{
+    width:max-content;  
+}
+
 .top{
     padding-top: 30px;
 }
