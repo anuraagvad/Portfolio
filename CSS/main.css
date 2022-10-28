@@ -187,6 +187,9 @@ p.mid{
     font-size: 1.5vw;
     padding-bottom: 10px;
 }
+p.midsmall{
+    font-size:1.3vw;
+}
 p.left{
     text-align: left;
     padding-left: 10px;
