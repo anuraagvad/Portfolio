@@ -27,7 +27,15 @@ p{
     letter-spacing: 0.5vw;
     color: #915b95;
 }
+.smaller{
+    font-size: 3.5vw;
+    color: black;
+    letter-spacing: 0.1vw;
+}
 
+.coffeepics{
+    height:25vw;
+}
 .eyeicon:hover{
     transform: rotate(45deg);
 }
@@ -78,15 +86,37 @@ div.headingblock{
     color: black;
     transition: 0.3s;
 }
+
+.instabutton{
+    display: flex;
+    position: relative;
+    height: 2vw;
+    margin-top: 3vw;
+    width: fit-content;
+    align-self: flex-start;
+    transition: 0.5s;
+}
+.active{
+    background-color:#008d63 ;
+}
 a{
     text-decoration: none;
     color: black;
     align-items: center;
 }
 
+.mainheading{
+    font-size: 6vw;
+}
+
 .headinglinks:hover{
     background-color:#008d63;
     color: aliceblue;
+}
+
+.instabutton:hover{
+    background-color: #713c75;
+    transform: rotate(5deg);
 }
 
 .imagesize{
@@ -101,13 +131,15 @@ a{
 }
 div.middle{
     padding-left: 0px;
-    width:75vw;
+    max-width: 90vw;
     justify-content: center;
     align-items: center;
     align-self: center;
     display: flex;
     margin: 0 auto;
 }
+
+
 
 .designimages{
     height:30vw;
@@ -154,6 +186,10 @@ p.mid{
     text-align: center;
     font-size: 1.5vw;
     padding-bottom: 10px;
+}
+p.left{
+    text-align: left;
+    padding-left: 10px;
 }
 
 .illustratingheader{
