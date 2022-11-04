@@ -119,6 +119,24 @@ a{
     transform: rotate(5deg);
 }
 
+.greenhover:hover{
+    background-color: #008d63;
+}
+
+.yellowhover:hover{
+    background-color:#f3e60f;
+}
+
+@keyframes roundround{
+    from{rotate: 0deg;}
+    to{
+        rotate: 360deg;
+    }
+}
+
+.rotate{
+    animation: roundround 120s linear infinite;
+}
 .imagesize{
     width: 350px;
     height: 350px;
