@@ -116,20 +116,23 @@ a{
 
 .instabutton:hover{
     background-color: #713c75;
-    transform: rotate(5deg);
+    transform: rotate(3deg);
+    color:#fab6ff;
 }
 
 .greenhover:hover{
     background-color: #008d63;
+    color: #adefdb;
 }
 
 .yellowhover:hover{
     background-color:#f3e60f;
+    color: #807e59;
 }
 
 .email:hover{
     transition: ease-in-out 0.5s;
-    top: -7px;
+    top: -4px;
     background-color: aliceblue;
     color: black;
 }
