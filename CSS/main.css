@@ -96,9 +96,6 @@ div.headingblock{
     align-self: flex-start;
     transition: 0.5s;
 }
-.email{
-    height: 15vw;
-}
 .active{
     background-color:#008d63 ;
 }
@@ -130,16 +127,13 @@ a{
     background-color:#f3e60f;
 }
 
-@keyframes roundround{
-    from{rotate: 0deg;}
-    to{
-        rotate: 360deg;
-    }
+.email:hover{
+    transition: ease-in-out 0.5s;
+    top: -7px;
+    background-color: aliceblue;
+    color: black;
 }
 
-.rotate{
-    animation: roundround 120s linear infinite;
-}
 .imagesize{
     width: 350px;
     height: 350px;
