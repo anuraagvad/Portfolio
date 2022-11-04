@@ -96,6 +96,9 @@ div.headingblock{
     align-self: flex-start;
     transition: 0.5s;
 }
+.email{
+    height: 15vw;
+}
 .active{
     background-color:#008d63 ;
 }
